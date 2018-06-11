@@ -9,9 +9,6 @@ package Truxican;
  *
  * @author ricky
  */
-public interface Abilities {
-    void Attack();
-    void Defend();
-    //void Abscond();
-    
+public enum TruxType {
+    COMMON, SPECIAL, LEGENDARY; 
 }

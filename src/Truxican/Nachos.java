@@ -9,19 +9,21 @@ package Truxican;
  *
  * @author ricky
  */
-public class Nachos implements Abilities {
+public class Nachos implements Truxican {
     private int price;
     private int life;
     private final int ATKUnit = 20;
     private final int ATKEdif = 10; 
 
+    public Nachos(){}
+    
     public Nachos(int price, int life) {
         this.price = price;
         this.life = life;
     }
         
     @Override
-    public void Attack() {
+    public void Attack() {//Hay que cambiarla porque solo se pueden atacar edificaciones, no unidades.
 
         if(Target == Units[]){//Hay que crear un array que contenga todas las unidades de todas las razas y otro igual para edificaciones.
             System.out.println("Tck, Tck, Tck");
@@ -45,5 +47,12 @@ public class Nachos implements Abilities {
     public void Defend() {
         
     }
+    
+    /*
+    @Override
+    public void Abscond() {
+    
+    }
+    */
     
 }
