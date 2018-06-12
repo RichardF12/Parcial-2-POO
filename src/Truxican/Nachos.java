@@ -23,17 +23,9 @@ public class Nachos implements Truxican {
     }
         
     @Override
-    public void Attack() {//Hay que cambiarla porque solo se pueden atacar edificaciones, no unidades.
-
-        if(Target == Units[]){//Hay que crear un array que contenga todas las unidades de todas las razas y otro igual para edificaciones.
-            System.out.println("Tck, Tck, Tck");
-            while(Target.life != 0){
-                Target.life == Target.life - ATKUnit;
-            }
-            System.out.println("Ba Dum Tzz");
-            Target.delete();
-        }else{//cuando estan atacando una edificacion
-            System.out.println("Destrucciooooooon weeeeeeeee!!!");
+    public void Attack() {//Modificar para que funcione de forma practica no solo teorica.
+        if(Target == Edif[]){
+            System.out.println("Destrucciooooooon wiiiiiii!!!");
             while(Target.life != 0){
                 Target.life == Target.life - ATKEdif;
             }
@@ -45,7 +37,13 @@ public class Nachos implements Truxican {
 
     @Override
     public void Defend() {
-        
+        if(Target == Units[]){//Hay que arreglar un poco para que funcione.
+        System.out.println("No toques mi queso wey!!!");
+            while(Target.life != 0){
+                Target.life == Target.life - ATKUnit;
+            }
+            System.out.println("Se cayooo weeeey!!!");
+            Target.delete();
     }
     
     /*
