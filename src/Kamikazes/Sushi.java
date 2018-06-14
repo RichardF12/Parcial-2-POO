@@ -5,11 +5,13 @@
  */
 package Kamikazes;
 
+import Truxican.Interfacer;
+
 /**
  *
  * @author ricky
  */
-public class Sushi implements Kamikaze{
+public class Sushi implements Interfacer{
     private int price;
     private int life;
     private final int ATKUnit = 30;

@@ -3,20 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Truxican;
-
-import java.util.ArrayList;
+package Edifications.FoodCourt;
 
 /**
  *
  * @author ricky
  */
-public class Dammn {
-    private final ArrayList<int> gato  = new ArrayList();
+public class FoodCourt {
+    private int life = 10000;
+    private int FoodThingys = 2000;
+    private int SecretIngredient = 1500;
+    private int Love = 1000;
     
-    public funcion_(){
-        gato.size();
-        gato.
-    }
-   
+    
+    
+    
 }

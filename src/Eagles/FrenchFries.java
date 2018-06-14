@@ -5,11 +5,13 @@
  */
 package Eagles;
 
+import Truxican.Interfacer;
+
 /**
  *
  * @author ricky
  */
-public class FrenchFries implements Eagle{
+public class FrenchFries implements Interfacer{
     private int price;
     private int life;
     private final int ATKUnit = 25;

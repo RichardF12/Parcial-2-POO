@@ -5,14 +5,23 @@
  */
 package Edifications.FoodCourt.GoatCo;
 
+import Truxican.Interfacer;
+
 /**
  *
  * @author ricky
  */
-public class Tupperware implements GoatCo{
-    
+public class Tupperware implements Interfacer{
+
     @Override
-    public void Travel() {
-        
+    public void Attack() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
+
+    @Override
+    public void Defend() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+    
+
 }

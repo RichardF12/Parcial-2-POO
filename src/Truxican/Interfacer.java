@@ -3,14 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Eagles;
+package Truxican;
 
 /**
  *
  * @author ricky
  */
-public interface Eagle {
+public interface Interfacer {
     void Attack();
     void Defend();
     //void Abscond();
+    
 }

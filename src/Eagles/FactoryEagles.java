@@ -5,13 +5,15 @@
  */
 package Eagles;
 
+import Truxican.Interfacer;
+
 /**
  *
  * @author ricky
  */
 public class FactoryEagles {
     
-    public static Eagle getEagle(EagleType type){
+    public static Interfacer getEagle(EagleType type){
         switch(type){
             case COMMON:
                 return new FrenchFries();

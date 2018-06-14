@@ -5,14 +5,13 @@
  */
 package Edifications.FoodCourt;
 
-import Edifications.FoodCourt.GoatCo.GoatCo;
-import Edifications.FoodCourt.Market.Market;
+import Truxican.Interfacer;
 
 /**
  *
  * @author ricky
  */
 public interface StoreFactory {
-    GoatCo getGoatCo(int type);
-    Market getMarket(int type);
+    Interfacer getGoatCo(int type);
+    Interfacer getMarket(int type);
 }

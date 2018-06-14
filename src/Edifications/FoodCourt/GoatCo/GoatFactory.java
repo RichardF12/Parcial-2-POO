@@ -5,20 +5,22 @@
  */
 package Edifications.FoodCourt.GoatCo;
 
-import Edifications.FoodCourt.Market.Market;
 import Edifications.FoodCourt.StoreFactory;
+import Truxican.Interfacer;
 
 /**
  *
  * @author ricky
  */
 public class GoatFactory implements StoreFactory{
+    private int life = 1000;
+    private int cost;
 
     @Override
-    public GoatCo getGoatCo(int type) {
+    public Interfacer getGoatCo(int type) {
         if(type == 1){
             System.out.println("Tu Tupperware esta en camino.");
-            return new Tupperware();
+            return (Interfacer) new Tupperware();
         }else{
             System.out.println("Opcion no valida.");
         }
@@ -26,7 +28,7 @@ public class GoatFactory implements StoreFactory{
     }
 
     @Override
-    public Market getMarket(int type) {
+    public Interfacer getMarket(int type) {
         return null;
     }
     

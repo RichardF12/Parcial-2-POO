@@ -5,12 +5,14 @@
  */
 package Kamikazes;
 
+import Truxican.Interfacer;
+
 /**
  *
  * @author ricky
  */
 public class KamiFactory {
-    public static Kamikaze getKamikaze(KamiType type){
+    public static Interfacer getKamikaze(KamiType type){
         switch(type){
             case COMMON:
                 return new Onigiri();

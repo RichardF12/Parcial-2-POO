@@ -5,11 +5,13 @@
  */
 package Kamikazes;
 
+import Truxican.Interfacer;
+
 /**
  *
  * @author ricky
  */
-public class Ramen implements Kamikaze{
+public class Ramen implements Interfacer{
     private int price;
     private int life;
     private final int ATKUnit = 35;

@@ -5,14 +5,22 @@
  */
 package Edifications.FoodCourt.Market;
 
+import Truxican.Interfacer;
+
 /**
  *
  * @author ricky
  */
-public class PlainPlate implements Market{
-    
+public class PlainPlate implements Interfacer{
+
     @Override
-    public void Travel() {
-        
+    public void Attack() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
+
+    @Override
+    public void Defend() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+    
 }

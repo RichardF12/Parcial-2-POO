@@ -3,12 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Edifications.FoodCourt.GoatCo;
+package Main;
 
 /**
  *
  * @author ricky
  */
-public interface GoatCo {
-    void Travel();
+public class Player {
+    private String user;
+    
 }

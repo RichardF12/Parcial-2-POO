@@ -3,15 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Truxican;
+package Edifications.FoodCourt;
 
 /**
  *
  * @author ricky
  */
-public interface Truxican {
-    void Attack();
-    void Defend();
-    //void Abscond();
-    
+public interface Resources {
+    void addFoodThingys();
+    void addSecretIngredient();
+    void addLove();
 }

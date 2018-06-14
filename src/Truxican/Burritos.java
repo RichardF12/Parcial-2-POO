@@ -9,7 +9,7 @@ package Truxican;
  *
  * @author ricky
  */
-public class Burritos implements Truxican{
+public class Burritos implements Interfacer{
     private int price;
     private int life;
     private final int ATKUnit = 50;

@@ -10,7 +10,7 @@ package Truxican;
  * @author ricky
  */
 public class TruxFactory {
-    public static Truxican getTruxican(TruxType type){
+    public static Interfacer getTruxican(TruxType type){
         switch(type){
             case COMMON:
                 return new Nachos();
