@@ -5,25 +5,17 @@
  */
 package Main;
 
-import java.util.Scanner;
 /**
  *
  * @author ricky
  */
 public class Main {
-    public void Menu(){
-        Scanner scan = new Scanner(System.in);
-        System.out.println("============== Bienvenido a RicardoPerez's World ===============");
-        System.out.println("");
-        System.out.println("1)Iniciar Juego");
-        System.out.println("2)Salir");
-        System.out.print("Elija una opcion: ");
-        switch(scan.nextInt()){
-            case 1:
-                Menu2.MenuInicio();
-            case 2:
-                System.exit(0);
-        }
-        
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Menu1.Menu();
     }
+    
 }
